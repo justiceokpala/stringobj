@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index6</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">index</a> </li>
+        <li><a href="index2.html">index2</a> </li>
+         <li><a href="index3.html">index3</a> </li>
+         <li> <a href="index4.html">index4</a> </li>
+         <li><a href="index5.html">index5</a> </li>
+         <li><a href="index6.html">index6</a> </li>
+         <li><a href="index7.html">index7</a> </li>
+         <li><a href="index8.html">index8</a> </li>
+         <li><a href="index9.html">index9</a> </li>
+         <li><a href="index10.html">index10</a> </li>
+         </ul>
+    <p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+    <button onclick="myFunction()">Try it</button>
+    
+    <p id="demo">Please visit Microsoft!</p>
+    
+    <script>
+    function myFunction() {
+      let str = document.getElementById("demo").innerHTML; 
+      let txt = str.replace("Microsoft","W3Schools");
+      document.getElementById("demo").innerHTML = txt;
+    }
+</script>
+</body>
+</html>
